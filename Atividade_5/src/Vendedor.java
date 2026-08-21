@@ -11,4 +11,5 @@ public class Vendedor extends Funcionario{
     public double calcularPagamento(){ // igual ao getSalarioBase
         return super.getSalarioBase()+comissao;
     }
+    
 }
