@@ -3,7 +3,7 @@ public class CarroDePasseio extends Veiculo {
     private double potenciaMotor;
 //Construtor
     public CarroDePasseio(String placa, String modelo, double valorBase, double potenciaMotor){
-        super(placa, modelo, valorBase);
+        super(placa, modelo, valorBase); //construtor da superclasse
         this.potenciaMotor = potenciaMotor;
     }
 //demais métodos

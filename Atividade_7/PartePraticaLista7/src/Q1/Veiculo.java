@@ -1,3 +1,4 @@
+package Q1;
 public abstract class Veiculo {
 //atributos que serão herdados pelas subclasses 
     private String placa;
@@ -5,7 +6,7 @@ public abstract class Veiculo {
     private double valorBase;
 //atributos desta classe apenas
     private static int totalVeiculosCadastrados = 0;
-    public static final double TAXA_AMBIENTAL = 0.03;
+    public static final double TAXA_AMBIENTAL = 0.03; //constante
 //Método construtor
     public Veiculo(String placa, String modelo, double valorBase) {
         this.placa = placa;
