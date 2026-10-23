@@ -1,5 +1,4 @@
 package Q2;
-
 public class ContaCorrente extends Conta implements Auditavel, Tributalvel{
 
 //construtor
@@ -22,7 +21,6 @@ public class ContaCorrente extends Conta implements Auditavel, Tributalvel{
             "Titula:\t"+super.getTitular()+
             "Saldo:\t"+super.getSaldo()+
             "Imposto:\t"+calcularTributos();
-
     }
     
 }
