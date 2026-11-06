@@ -5,13 +5,13 @@ public class App {
         System.out.println(num[1]);
         System.out.println(num[2]);
         try{
-            Pessoa p = new Pessoa(16);
+            Pessoa p = new Pessoa(16); //vai lançar uma exceção
             System.out.println(num[3]); // ArrayIndexOutOfBoundsException
             System.out.println("depois do erro.");
-        } catch (ArrayIndexOutOfBoundsException erro){
+        } catch (ArrayIndexOutOfBoundsException erro){ //captura a exceção da linha 9
             System.out.println("Mensagem: "+erro.getMessage());
             System.out.println("Causa:"+ erro.getCause());
-        } catch (IllegalArgumentException erro){
+        } catch (IllegalArgumentException erro){ //captura a exceção da linha 8
             System.out.println("Mensagem: "+erro.getMessage());
             System.out.println("Causa:"+ erro.getCause());
         }
